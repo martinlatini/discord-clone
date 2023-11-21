@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Ginto-Nord';
+    src: url("/assets/fonts/GintoNord.otf");
+}
+
+@font-face {
+    font-family: 'ggsans';
+    src: url("/assets/fonts/ggsans-Normal.ttf");
+}

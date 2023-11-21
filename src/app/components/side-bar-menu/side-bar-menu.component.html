@@ -1,0 +1,17 @@
+<nav class="flex flex-col mt-4">
+    @for (menuItem of arrMenu1; track menuItem.id) {
+    <a
+      class="font-ggsans font-normal p-2 rounded active:color-[#00C1F5] active:bg-[#F6F6F6]"
+      href="#"
+      >{{ menuItem.text }}</a
+    >
+    }
+    <span class="font-ggsans font-normal p-2 rounded">
+      <a href="#">Safety <span class="font-bold">></span></a>
+    </span>
+    @for (menuItem of arrMenu2; track menuItem.id) {
+    <a class="font-ggsans font-normal p-2 rounded" href="#">{{
+      menuItem.text
+    }}</a>
+    }
+  </nav>
